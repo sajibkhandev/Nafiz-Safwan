@@ -1,18 +1,17 @@
 import React from 'react'
+import Navber from './layouts/Navber'
 
-import Button from './components/Button'
 
 const App = () => {
   return (
-    <div>
-      <Button className='bg-red-500' text="Download CV"/>
-      <Button text="Contact me"/>
-      <Button text="Learn More"/>
+    <>
+        <Navber/>
+  
       
       
-    
       
-    </div>
+      
+    </>
   )
 }
 

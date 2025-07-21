@@ -13,7 +13,12 @@ export default {
        fontFamily: {
         'jost': ["Jost",],
       
-    }
+      },
+      maxWidth:{
+        'container':"1170px"
+      }
+
+
     },
   },
   plugins: [],
